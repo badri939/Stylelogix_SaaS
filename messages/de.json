@@ -1,0 +1,63 @@
+{
+    "Hero": {
+        "badge": "Revolutionierung des Modehandels",
+        "title": "Willkommen bei <brand>StyleLogix.ai</brand>",
+        "description": "Entdecken Sie, wie KI den Modehandel revolutionieren kann – stärken Sie Ihr Geschäft mit intelligenter Automatisierung für Verkauf, Marketing und E-Commerce-Transformation.",
+        "cta_primary": "KI-Lösungen erkunden",
+        "cta_secondary": "Demo ansehen",
+        "ai_status": "KI-Analyse abgeschlossen"
+    },
+    "Navbar": {
+        "solutions": "Lösungen",
+        "features": "Funktionen",
+        "pricing": "Preise",
+        "login": "Anmelden",
+        "get_started": "Loslegen"
+    },
+    "CardDeck": {
+        "title": "Stärken Sie Ihr Geschäft",
+        "subtitle": "Wählen Sie aus unserer Suite von KI-gestützten Tools, die jeden Aspekt Ihres Einzelhandelsbetriebs verbessern.",
+        "cards": {
+            "merch": {
+                "title": "KI-Gestütztes Store-Management",
+                "desc": "Intelligente Backend-Abläufe für moderne E-Commerce-Unternehmen"
+            },
+            "sales": {
+                "title": "KI-Automatisierter Vertrieb & Marketing",
+                "desc": "Personalisieren Sie Kundenreisen und automatisieren Sie Marketingkampagnen skalierbar."
+            },
+            "ecom": {
+                "title": "E-Kommerealisierung",
+                "desc": "Verwandeln Sie Ihre digitalen Schaufenster in intelligente, konversionsgesteuerte Erlebnisse."
+            },
+            "appification": {
+                "title": "Appifizierung",
+                "desc": "Verwandeln Sie Ihren E-Commerce-Store in eine leistungsstarke native mobile App."
+            }
+        },
+        "learn_more": "Mehr erfahren"
+    },
+    "Footer": {
+        "tagline": "Stärkung von Modehändlern durch KI-gesteuerte Merchandising- und Marketing-Automatisierung.",
+        "columns": {
+            "product": "Produkt",
+            "company": "Unternehmen",
+            "legal": "Rechtliches"
+        },
+        "links": {
+            "merch": "Merchandising",
+            "marketing": "Marketing",
+            "ecommerce": "E-Commerce",
+            "pricing": "Preise",
+            "about": "Über uns",
+            "blog": "Blog",
+            "careers": "Karriere",
+            "contact": "Kontakt",
+            "privacy": "Datenschutz",
+            "terms": "AGB",
+            "imprint": "Impressum",
+            "security": "Sicherheit"
+        },
+        "copyright": "© {year} StyleLogix.ai. Alle Rechte vorbehalten."
+    }
+}

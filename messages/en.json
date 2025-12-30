@@ -1,0 +1,63 @@
+{
+    "Hero": {
+        "badge": "Revolutionizing Fashion Retail",
+        "title": "Welcome to <brand>StyleLogix.ai</brand>",
+        "description": "Discover how AI can revolutionize apparel retail and merchandising — empowering your business with intelligent automation for sales, marketing, and e-commerce transformation.",
+        "cta_primary": "Explore Our AI Solutions",
+        "cta_secondary": "View Demo",
+        "ai_status": "AI Analysis Complete"
+    },
+    "Navbar": {
+        "solutions": "Solutions",
+        "features": "Features",
+        "pricing": "Pricing",
+        "login": "Log in",
+        "get_started": "Get Started"
+    },
+    "CardDeck": {
+        "title": "Empower Your Business",
+        "subtitle": "Choose from our suite of AI-powered tools designed to elevate every aspect of your retail operations.",
+        "cards": {
+            "merch": {
+                "title": "AI-Powered Store Management",
+                "desc": "Intelligent backend operations for modern e-commerce businesses"
+            },
+            "sales": {
+                "title": "AI-Automated Sales & Marketing",
+                "desc": "Personalize customer journeys and automate marketing campaigns at scale."
+            },
+            "ecom": {
+                "title": "Ecommercification",
+                "desc": "Transform your digital storefronts into intelligent, conversion-driven experiences."
+            },
+            "appification": {
+                "title": "Appification",
+                "desc": "Turn your e-commerce store into a high-performance native mobile app."
+            }
+        },
+        "learn_more": "Learn more"
+    },
+    "Footer": {
+        "tagline": "Empowering fashion retailers with AI-driven merchandising and marketing automation.",
+        "columns": {
+            "product": "Product",
+            "company": "Company",
+            "legal": "Legal"
+        },
+        "links": {
+            "merch": "Merchandising",
+            "marketing": "Marketing",
+            "ecommerce": "E-commerce",
+            "pricing": "Pricing",
+            "about": "About",
+            "blog": "Blog",
+            "careers": "Careers",
+            "contact": "Contact",
+            "privacy": "Privacy",
+            "terms": "Terms",
+            "imprint": "Imprint",
+            "security": "Security"
+        },
+        "copyright": "© {year} StyleLogix.ai. All rights reserved."
+    }
+}

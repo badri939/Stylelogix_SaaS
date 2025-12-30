@@ -1,5 +1,38 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-accent-500: #8b5cf6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-gray-900 bg-white selection:bg-brand-500 selection:text-white;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.glass-nav {
+  @apply backdrop-blur-md bg-white/70 border-b border-white/20 sticky top-0 z-50;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
