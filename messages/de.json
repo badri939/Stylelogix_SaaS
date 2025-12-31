@@ -59,5 +59,34 @@
             "security": "Sicherheit"
         },
         "copyright": "© {year} StyleLogix.ai. Alle Rechte vorbehalten."
+    },
+    "Auth": {
+        "welcome_back": "Willkommen zurück! Bitte melden Sie sich an.",
+        "email_label": "E-Mail-Adresse",
+        "password_label": "Passwort",
+        "forgot_password": "Passwort vergessen?",
+        "sign_in_button": "Anmelden",
+        "or_continue_with": "Oder weiter mit"
+    },
+    "Dashboard": {
+        "nav": {
+            "overview": "Übersicht",
+            "merch": "Merchandising",
+            "sales": "Vertrieb & Marketing",
+            "appification": "Appifizierung",
+            "settings": "Einstellungen"
+        },
+        "header": {
+            "title": "Dashboard"
+        },
+        "overview": {
+            "stats": {
+                "total_products": "Gesamtprodukte",
+                "optimized": "Optimiert",
+                "pending": "Ausstehend",
+                "sales_lift": "Geschätzter Umsatzanstieg"
+            },
+            "recent_activity": "Kürzliche Aktivitäten"
+        }
     }
 }

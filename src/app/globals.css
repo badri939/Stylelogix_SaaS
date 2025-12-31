@@ -1,28 +1,44 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-50: #eff6ff;
-  --color-brand-100: #dbeafe;
-  --color-brand-500: #3b82f6;
-  --color-brand-600: #2563eb;
-  --color-brand-700: #1d4ed8;
-  --color-accent-500: #8b5cf6;
+  --color-primary-50: #fff1f2;
+  --color-primary-100: #ffe4e6;
+  --color-primary-200: #fecdd3;
+  --color-primary-300: #fda4af;
+  --color-primary-400: #fb7185;
+  --color-primary-500: #f43f5e;
+  --color-primary-600: #e11d48;
+  --color-primary-700: #be123c;
+  --color-primary-800: #9f1239;
+  --color-primary-900: #881337;
+  --color-secondary-500: #f97316;
+  /* Orange-500 for gradients */
+  --color-secondary-600: #ea580c;
+  /* Orange-600 */
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply antialiased text-gray-900 bg-white selection:bg-brand-500 selection:text-white;
+    @apply antialiased text-gray-900 bg-white selection:bg-rose-500 selection:text-white;
   }
 }
 
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .animate-float {

@@ -11,18 +11,21 @@ export const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
-                            StyleLogix.ai
+                        <Link href="/" className="flex items-center gap-2">
+                            <img src="/logo.png" alt="StyleLogix.ai" className="h-8 w-auto" />
+                            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-secondary-500">
+                                StyleLogix.ai
+                            </span>
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center space-x-8">
-                        <Link href="#solutions" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="#solutions" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                             {t('solutions')}
                         </Link>
-                        <Link href="#features" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="#features" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                             {t('features')}
                         </Link>
-                        <Link href="#pricing" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="#pricing" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                             {t('pricing')}
                         </Link>
                     </div>

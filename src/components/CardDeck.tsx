@@ -55,9 +55,9 @@ export const CardDeck = () => {
     ];
 
     return (
-        <div className="py-24 bg-gray-50 relative overflow-hidden">
+        <div className="py-16 bg-primary-50/30 relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center mb-16">
+                <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
                         {t('title')}
                     </h2>
@@ -66,28 +66,31 @@ export const CardDeck = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 max-w-5xl mx-auto">
                     {cards.map((card, index) => (
                         <div
                             key={index}
-                            className="group relative bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-gray-100"
+                            className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 overflow-hidden border border-gray-100 flex flex-col"
                         >
                             <div className={`absolute top-0 left-0 w-full h-2 bg-gradient-to-r ${card.color}`} />
 
-                            <div className="p-8">
-                                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${card.color} flex items-center justify-center mb-6 shadow-lg transform group-hover:scale-110 transition-transform duration-300`}>
-                                    {card.icon}
+                            <div className="p-8 flex-1 flex flex-col">
+                                <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${card.color} flex items-center justify-center mb-6 shadow-md transform group-hover:scale-110 transition-transform duration-300`}>
+                                    {/* Clone element to modify className if needed, or just rely on parent sizing */}
+                                    <div className="text-white transform scale-110">
+                                        {card.icon}
+                                    </div>
                                 </div>
 
-                                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
                                     {card.title}
                                 </h3>
 
-                                <p className="text-gray-600 mb-6 leading-relaxed">
+                                <p className="text-gray-600 mb-6 leading-relaxed flex-1">
                                     {card.description}
                                 </p>
 
-                                <Link href={card.href} className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors group-hover:underline">
+                                <Link href={card.href} className="inline-flex items-center text-sm font-semibold text-primary-600 hover:text-primary-700 transition-colors group-hover:underline mt-auto">
                                     {t('learn_more')}
                                     <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
