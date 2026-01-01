@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter } from '@/i18n/navigation';
 import { Button } from '../ui/Button';
 import { useTranslations } from 'next-intl';
 
@@ -19,9 +19,8 @@ export const LoginForm = () => {
         // Simulate API call
         setTimeout(() => {
             setIsLoading(false);
-            // Redirect to dashboard (mock login)
-            const currentLocale = window.location.pathname.split('/')[1] || 'en';
-            router.push(`/${currentLocale}/dashboard`);
+            // Redirect to dashboard (localized router handles the locale prefix)
+            router.push('/dashboard');
         }, 1000);
     };
 

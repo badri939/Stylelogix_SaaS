@@ -62,7 +62,7 @@ export const Sidebar = () => {
         <div className="w-64 bg-white border-r border-gray-200 min-h-screen flex flex-col">
             <div className="px-6 py-6 border-b border-gray-100 flex items-center gap-2">
                 <img src="/logo.png" alt="StyleLogix" className="h-8 w-8" />
-                <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">StyleLogix</span>
+                <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-secondary-500">StyleLogix</span>
             </div>
 
             <nav className="flex-1 px-4 py-6 space-y-1">
@@ -73,11 +73,11 @@ export const Sidebar = () => {
                             key={item.name}
                             href={item.href}
                             className={`flex items-center px-4 py-3 text-sm font-medium rounded-xl transition-colors ${isActive
-                                    ? 'bg-blue-50 text-blue-700'
-                                    : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                                ? 'bg-primary-50 text-primary-700'
+                                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
                                 }`}
                         >
-                            <span className={`${isActive ? 'text-blue-600' : 'text-gray-400'} mr-3`}>
+                            <span className={`${isActive ? 'text-primary-600' : 'text-gray-400'} mr-3`}>
                                 {item.icon}
                             </span>
                             {item.name}

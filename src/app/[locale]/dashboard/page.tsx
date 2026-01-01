@@ -6,7 +6,7 @@ export default function DashboardPage() {
     const t = useTranslations('Dashboard.overview');
 
     const stats = [
-        { label: t('stats.total_products'), value: '1,284', change: '+12%', color: 'bg-blue-50 text-blue-600' },
+        { label: t('stats.total_products'), value: '1,284', change: '+12%', color: 'bg-primary-50 text-primary-600' },
         { label: t('stats.optimized'), value: '845', change: '+5%', color: 'bg-green-50 text-green-600' },
         { label: t('stats.pending'), value: '439', change: '-2%', color: 'bg-orange-50 text-orange-600' },
         { label: t('stats.sales_lift'), value: '$45.2k', change: '+18%', color: 'bg-purple-50 text-purple-600' },
