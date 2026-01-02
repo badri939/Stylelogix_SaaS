@@ -32,7 +32,7 @@ export const ClientStoreGrid = () => {
                             Connected Stores
                         </h1>
                         <p className="text-gray-600">
-                            Manage your clients' e-commerce stores and AI automation
+                            Manage your clients&apos; e-commerce stores and AI automation
                         </p>
                     </div>
                     <button className="bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors flex items-center gap-2">

@@ -24,7 +24,7 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
   // Await params if necessary in newer Next.js or just access directly depending on version. 
   // In Next 15, params is a promise.
