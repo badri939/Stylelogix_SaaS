@@ -14,7 +14,7 @@ export default function StoreManagementPage() {
                 </h1>
                 <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
                     Your intelligent backend automation dashboard. Manage your product catalog,
-                    view AI-generated recommendations, and optimize your store's performance.
+                    view AI-generated recommendations, and optimize your store&apos;s performance.
                 </p>
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-50 text-yellow-800 rounded-lg border border-yellow-200">
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -53,7 +53,7 @@ export default function StoreManagementPage() {
                         </svg>
                     </div>
                     <h3 className="font-semibold text-gray-900 mb-2">Performance Analytics</h3>
-                    <p className="text-sm text-gray-600">Track your store's performance and conversion metrics</p>
+                    <p className="text-sm text-gray-600">Track your store&apos;s performance and conversion metrics</p>
                 </div>
             </div>
         </div>

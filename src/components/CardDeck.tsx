@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Button } from './ui/Button';
 
 export const CardDeck = () => {
     const t = useTranslations('CardDeck');

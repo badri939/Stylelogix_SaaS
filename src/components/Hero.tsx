@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Button } from './ui/Button';

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Product } from '@/data/mockProducts';
 
 interface ProductCardProps {
