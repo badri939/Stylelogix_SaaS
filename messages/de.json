@@ -1,7 +1,8 @@
 {
     "Hero": {
         "badge": "Revolutionierung des Modehandels",
-        "title": "Willkommen bei <brand>StyleLogix.ai</brand>",
+        "title_prefix": "Willkommen bei",
+        "title_brand": "StyleLogix.ai",
         "description": "Entdecken Sie, wie KI den Modehandel revolutionieren kann – stärken Sie Ihr Geschäft mit intelligenter Automatisierung für Verkauf, Marketing und E-Commerce-Transformation.",
         "cta_primary": "KI-Lösungen erkunden",
         "cta_secondary": "Demo ansehen",

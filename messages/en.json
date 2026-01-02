@@ -1,7 +1,8 @@
 {
     "Hero": {
         "badge": "Revolutionizing Fashion Retail",
-        "title": "Welcome to <brand>StyleLogix.ai</brand>",
+        "title_prefix": "Welcome to",
+        "title_brand": "StyleLogix.ai",
         "description": "Discover how AI can revolutionize apparel retail and merchandising — empowering your business with intelligent automation for sales, marketing, and e-commerce transformation.",
         "cta_primary": "Explore Our AI Solutions",
         "cta_secondary": "View Demo",

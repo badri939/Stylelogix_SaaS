@@ -17,8 +17,8 @@ export const Hero = () => {
                             </div>
 
                             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
-                                <span className="block xl:inline">Welcome to</span>{' '}
-                                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500 xl:inline">StyleLogix.ai</span>
+                                <span className="block xl:inline">{t('title_prefix')}</span>{' '}
+                                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500 xl:inline">{t('title_brand')}</span>
                             </h1>
 
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 mb-8">
