@@ -1,31 +1,19 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/i18n/navigation';
 import { ChangeEvent, useTransition } from 'react';
 
 export default function LanguageSwitcher() {
     const router = useRouter();
+    const pathname = usePathname();
     const locale = useLocale();
     const [isPending, startTransition] = useTransition();
 
     const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
         const nextLocale = e.target.value;
         startTransition(() => {
-            // Replace the current locale in the pathname
-            // Since we don't have the full path easily without complex logic in client component,
-            // a simple redirect or using next-intl's Link/usePathname is better.
-            // But for now, we'll assume the path structure is /[locale]/... 
-            // This is a naive implementation; with next-intl navigation APIs it's cleaner.
-            // Let's use window.location for simplicity if we don't refactor everything to use next-intl navigation yet.
-            // actually, to be proper, we should use `usePathname` from `next-intl/navigation`.
-            // I will implement standard next-intl navigation in a separate file if needed, but for now:
-
-            const path = window.location.pathname;
-            const segments = path.split('/');
-            segments[1] = nextLocale;
-            const newPath = segments.join('/');
-            router.replace(newPath);
+            router.replace(pathname, { locale: nextLocale });
         });
     };
 
